@@ -6,6 +6,6 @@ class Solution {
             sum = sum + num;
             output.add(sum);
         }
-        return output.stream().mapToInt(i->i).toArray();
+        return output.stream().mapToInt(i -> i).toArray();
     }
 }
